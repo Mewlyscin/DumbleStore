@@ -10,10 +10,10 @@ function Navbar() {
 
       <div className="shop">
         <span className="achat">
-          <img></img> <p>tutututut</p>
+          <img className="caddy" src=""></img> <p>tutututut</p>
         </span>
         <span className="total">
-          <img></img> <p>tototototo</p>
+          <img className="caddy" src=""></img> <p>tototototo</p>
         </span>
       </div>
     </navbar>

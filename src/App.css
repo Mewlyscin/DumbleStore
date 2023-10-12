@@ -6,7 +6,7 @@ navbar {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 90px;
   font-family: "Harry Potter", sans-serif;
   color: #000000;
   -webkit-text-stroke: 1px #e0aa3e;
@@ -16,11 +16,16 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 10rem;
+  width: 7rem;
   margin-left: 2em;
 }
 
 navbar img {
+  width: 13rem;
+  border-radius: 2em;
+}
+
+img {
   width: 10rem;
   margin-left: 5px;
   border-radius: 2em;
@@ -106,4 +111,9 @@ button {
 
 .shop {
   font-size: 1em;
+}
+
+.caddy {
+  width: 3em;
+  border-radius: 3em;
 }
