@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import Card from "./Components/Card";
 import CardList from "./Components/CardList";
 import "./App.css";
 import Filter from "./Components/Filter";
