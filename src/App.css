@@ -1,15 +1,36 @@
+
+navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-right: 20px;
+  color: rgb(156, 97, 25);
+}
+
+img {
+  width: 10rem;
+  margin-left: 5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
 #root {
   background-color: #45171d;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
   color: #efe1d1;
-}
-
-navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .card-list {
@@ -31,4 +52,5 @@ navbar {
   border: solid #efe1d1;
   padding: 1rem;
   background-color: #a78295;
+
 }
