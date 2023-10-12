@@ -3,7 +3,7 @@ import Card from "./Card";
 
 function CardList() {
   return (
-    <div>
+    <div className="card-list">
       {data.map((animal) => (
         <Card
           image={animal.image}

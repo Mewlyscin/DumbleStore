@@ -1,9 +1,10 @@
 function Card({ image, title, description, key }) {
   return (
-    <div id={key}>
+    <div className="card" id={key}>
       <img src={image} alt="" />
-      <h1>{title}</h1>
+      <h2>{title}</h2>
       <p>{description}</p>
+      <button>Ajouter au panier</button>
     </div>
   );
 }

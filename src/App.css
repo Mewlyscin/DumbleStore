@@ -1,6 +1,34 @@
 #root {
-  max-width: 1280px;
+  background-color: #45171d;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color: #efe1d1;
+}
+
+navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: solid #efe1d1;
+  border-radius: 4%;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #3c2a21;
+  box-sizing: content-box;
+  width: auto;
+}
+
+.card {
+  border-radius: 6%;
+  border: solid #efe1d1;
+  padding: 1rem;
+  background-color: #a78295;
 }
