@@ -9,12 +9,15 @@ function Navbar() {
       </>
 
       <div className="shop">
-        <span className="achat">
-          <img className="caddy" src=""></img> <p>tutututut</p>
-        </span>
-        <span className="total">
-          <img className="caddy" src=""></img> <p>tototototo</p>
-        </span>
+        <button>
+          <span className="total">
+            <img
+              className="caddy"
+              src="https://img.icons8.com/pulsar-line/48/shopping-basket.png"
+              alt="shopping-basket"
+            />
+          </span>
+        </button>
       </div>
     </navbar>
   );

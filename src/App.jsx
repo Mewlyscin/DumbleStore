@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import Card from "./Components/Card";
 import CardList from "./Components/CardList";
 import "./App.css";
 
