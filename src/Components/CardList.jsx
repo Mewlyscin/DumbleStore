@@ -9,6 +9,8 @@ function CardList() {
           image={animal.image}
           title={animal.title}
           description={animal.description}
+          gallions={animal.gallions}
+          mornilles={animal.mornilles}
           key={animal.key}
           price={animal.price}
         />

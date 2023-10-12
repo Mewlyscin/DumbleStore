@@ -6,27 +6,48 @@ navbar {
 }
 
 h1 {
-  font-size: 25px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  margin-right: 20px;
-  color: rgb(156, 97, 25);
+  font-size: 90px;
+  font-family: "Harry Potter", sans-serif;
+  color: #000000;
+  -webkit-text-stroke: 1px #e0aa3e;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 7rem;
+  margin-left: 2em;
+}
+
+navbar img {
+  width: 13rem;
+  border-radius: 2em;
 }
 
 img {
   width: 10rem;
   margin-left: 5px;
+  border-radius: 2em;
 }
 
 footer {
-  display: flex;
+  display: block;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  color: #e0aa3e;
+  font-size: 20px;
+  margin-top: 3rem;
+}
+
+.footer-icon {
+  width: 60px;
+  margin: 5px;
 }
 
 #root {
-  background-color: #45171d;
+  background-color: #310309;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -39,18 +60,60 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  border: solid #efe1d1;
   border-radius: 4%;
   gap: 1rem;
-  padding: 1rem;
-  background-color: #3c2a21;
+  padding: 3rem;
+  background-color: #000000;
   box-sizing: content-box;
   width: auto;
 }
 
 .card {
-  border-radius: 6%;
-  border: solid #efe1d1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5em;
+  border: solid #e0aa3e;
+  width: 22%;
+  text-align: center;
   padding: 1rem;
-  background-color: #a78295;
+  background-color: #3a010ff8;
+  color: #e0aa3e;
+  font-size: 20px;
+}
+
+.card-img {
+  width: 320px;
+  height: 300px;
+  border-radius: 25%;
+}
+
+.panier-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  width: 35px;
+}
+
+.money {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.price {
+  font-size: 1.5em;
+}
+
+.shop {
+  font-size: 1em;
+}
+
+.caddy {
+  width: 3em;
+  border-radius: 3em;
 }
