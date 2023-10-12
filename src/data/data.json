@@ -3,7 +3,8 @@
     "id": "1",
     "title": "Chat",
     "description": "Le chat noir est souvent choisi parmi tant d'autre comme compagnon pour les sorciers/sorcières. Il aime chasser et se balader, il vous sera loyal mais attention certains on leur petit caractère.",
-    "price": "10 gallion d'or 5 mornilles d'argent",
+    "gallions": "10",
+    "mornilles": "5",
     "image": "../src/Img/chat.png",
     "category": "Félins"
   },
@@ -11,7 +12,8 @@
     "id": "2",
     "title": "Chouette Harfang des neiges",
     "description": "La Chouette Harfang des neiges est connu pour être d'une loyauté sans faille envers celui qu'elle considère comme son gardien, ne vous laissez pas avoir par cette bouille adorable elle peut devenir féroce si on la contrarie.",
-    "price": "70 gallion d'or 10 mornilles d'argent",
+    "gallions": "70",
+    "mornilles": "10",
     "image": "../src/Img/Hedwige.jpg",
     "category": "Rapace"
   },
@@ -19,7 +21,8 @@
     "id": "3",
     "title": "Licorne",
     "description": "La licorne est d'une espèce de cheveaux rare, à l'age adulte une corne apparait sur son front, elle est généralement d'une robe blanche aux crin et la corne argenté. De nature timide elle se laissera plus facilement approcher par une sorcière (mesdames à vos carresses elle succombera ^^) Respectez-la avec la plus grande sincérité et votre lien sera des plus fort. ATTENTION les sort jeté près d'elle peuvent l'effrayer.",
-    "price": "7000 gallion d'or 500 mornilles d'argent",
+    "gallions": "7K",
+    "mornilles": "500",
     "image": "../src/Img/Licorne.jpg",
     "category": "Chevaux Magique"
   },
@@ -27,7 +30,8 @@
     "id": "4",
     "title": "Sombral",
     "description": "Une espèce de chevaux magique ailé qui parfois fait peur au vue de son apparence rassurez-vous ils sont doux au toucher (comme du velour), seul ceux ayant vu la mort peuvent les voir mais ils ne sont en aucun cas dangereux du moins si on ne les énerve pas bien-sur. Ils sont de couleur noir, leur apparence est squelettiques et dotés des ailes semblables à celle des chauve-souris. Ils aiment l'obscurité, sont omnivores et ont un sens de l'orientation sur-développer.",
-    "price": "7000 gallion d'or 500 mornilles d'argent",
+    "gallions": "7K",
+    "mornilles": "500",
     "image": "../src/Img/sombral.jpg",
     "category": "Chevaux Magique"
   },
@@ -35,7 +39,8 @@
     "id": "5",
     "title": "Hyppogriffe",
     "description": "Les hyppogriffe sont des créatures hybride mi-cheval mi-aigle. Ils sont extrêmement fière et peut blesser quiconque le maltraite.",
-    "price": "10 000 gallion d'or 700 mornilles d'argent",
+    "gallions": "10K",
+    "mornilles": "700",
     "image": "../src/Img/Hypo.jpg",
     "category": "Chimère"
   },
@@ -43,7 +48,8 @@
     "id": "6",
     "title": "Thunderbird",
     "description": "Le Thunderbird est un oiseau magique capable de créer des tempêtes.Ils sont immense, certains ont même des motifs de nuages ou soleils sur leurs ailes. Son humeur peut influer sur le temps et il détecte le moindre danger surtout d'origine surnaturelle.",
-    "price": "2 gallion d'or 10 mornilles d'argent",
+    "gallions": "5M",
+    "mornilles": "700",
     "image": "../src/Img/thunderbird.jpg",
     "category": "Rapace"
   },
@@ -51,7 +57,8 @@
     "id": "7",
     "title": "Vert Gallois",
     "description": "Le vert gallois est l'un des deux dragons natifs de Grande-Bretagne avec le Noir des Hébrides. Ils vivent dans les hautes montagnes où des réserves de préservation à son espèce. Ils sont de nature paisible et préfère éviter les humains.",
-    "price": "5M gallion d'or 500 mornilles d'argent",
+    "gallions": "5M",
+    "mornilles": "500",
     "image": "../src/Img/vert_gallois.jpg",
     "category": "Dragon"
   },
@@ -59,7 +66,8 @@
     "id": "8",
     "title": "Maggyar à Pointe",
     "description": "Le maggyar à pointe est le plus dangereux de tous les dragons. Attention femelle beaucoup plus dangerause que le mâle !",
-    "price": "10M gallion d'or 500 mornilles d'argent",
+    "gallions": "10M",
+    "mornilles": "500",
     "image": "../src/Img/Maggy.png",
     "category": "Dragon"
   }
