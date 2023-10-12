@@ -1,7 +1,19 @@
-import data from "./data/data.json";
+import data from "/src/data/data.json";
 import Card from "./Card";
 
-const CardList() {
-};
+function CardList() {
+  return (
+    <div>
+      {data.map((animal) => (
+        <Card
+          image={animal.image}
+          title={animal.title}
+          description={animal.description}
+          key={animal.key}
+        />
+      ))}
+    </div>
+  );
+}
 
 export default CardList;
