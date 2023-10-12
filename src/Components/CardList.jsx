@@ -1,7 +1,8 @@
-import data from "./data/data.json";
+import data from "/Users/mac/dumbleStore/src/data/data.json";
 import Card from "./Card";
 
-const CardList() {
-};
+function CardList (){
+    
+}
 
 export default CardList;

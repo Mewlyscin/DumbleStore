@@ -46,7 +46,7 @@
     "price": "le prix de l'article",
     "image": "l'url de l'image de l'article",
     "category": "la catégorie de l'article"
-  }
+  },
   {
     "id": "7",
     "title": "le titre de l'article",
@@ -54,7 +54,7 @@
     "price": "le prix de l'article",
     "image": "l'url de l'image de l'article",
     "category": "la catégorie de l'article"
-  }
+  },
   {
     "id": "8",
     "title": "le titre de l'article",
