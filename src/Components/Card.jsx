@@ -1,7 +1,7 @@
 function Card({ image, title, description, key }) {
   return (
     <div className="card" id={key}>
-      <img src={image} alt="" />
+      <img className="card-img" src={image} alt="" />
       <h2>{title}</h2>
       <p>{description}</p>
       <button>
