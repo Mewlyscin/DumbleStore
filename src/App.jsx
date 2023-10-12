@@ -9,10 +9,11 @@ import "./App.css";
 function App() {
   return (
     <>
-    <Navbar />
-    <Footer />
+      <Navbar />
+      <CardList />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default App;
