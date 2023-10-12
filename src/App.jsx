@@ -5,9 +5,13 @@ import CardList from "./Components/CardList";
 import "./App.css";
 
 function App() {
-  const [, set] = useState(0);
-
-  return <></>;
+  return (
+    <>
+      <Navbar />
+      <CardList />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
