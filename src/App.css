@@ -28,12 +28,38 @@ navbar img {
 }
 
 .shop {
-  font-size: 1em;
+  font-size: 1.25em;
 }
 
-.caddy {
-  width: 3em;
-  border-radius: 3em;
+.total {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/*Filtres*/
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 1rem;
+}
+
+.filters input {
+  width: 200px;
+  height: 30px;
+  padding: 0;
+  border: 1px;
+  border-radius: 10px;
+}
+
+.filters select {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
 }
 
 /*Card List*/

@@ -1,4 +1,23 @@
-function Card({ image, title, description, key, gallions, mornilles }) {
+function Card({
+  image,
+  title,
+  description,
+  key,
+  gallions,
+  mornilles,
+  setTotalGallion,
+  totalGallion,
+  setTotalMornille,
+  totalMornille,
+  count,
+  setCount,
+}) {
+  const handleClick = () => {
+    setCount(count + 1);
+    setTotalGallion(totalGallion + Number(gallions));
+    setTotalMornille(totalMornille + Number(mornilles));
+  };
+
   return (
     <div className="card" id={key}>
       <div>
@@ -20,7 +39,7 @@ function Card({ image, title, description, key, gallions, mornilles }) {
           <img className="money" src="../src/Img/mornille.webp" />
           &nbsp;{mornilles}
         </span>
-        <button className="basket-button">
+        <button type="button" className="basket-button" onClick={handleClick}>
           <img
             src="https://img.icons8.com/ios-filled/50/shopping-basket.png"
             alt="shopping-basket"

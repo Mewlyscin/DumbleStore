@@ -3,8 +3,8 @@
     "id": "1",
     "title": "Chat",
     "description": "Le chat noir est souvent choisi parmi tant d'autre comme compagnon pour les sorciers/sorcières. Il aime chasser et se balader, il vous sera loyal mais attention certains on leur petit caractère.",
-    "gallions": "10",
-    "mornilles": "5",
+    "gallions": "3",
+    "mornilles": "15",
     "image": "../src/Img/chat.png",
     "category": "Félins"
   },
@@ -12,7 +12,7 @@
     "id": "2",
     "title": "Chouette Harfang des neiges",
     "description": "La Chouette Harfang des neiges est connu pour être d'une loyauté sans faille envers celui qu'elle considère comme son gardien, ne vous laissez pas avoir par cette bouille adorable elle peut devenir féroce si on la contrarie.",
-    "gallions": "70",
+    "gallions": "10",
     "mornilles": "10",
     "image": "../src/Img/Hedwige.jpg",
     "category": "Rapace"
@@ -21,8 +21,8 @@
     "id": "3",
     "title": "Licorne",
     "description": "La licorne est une espèce rare chez les équidés. elle a généralement une robe blanche, ses crins et sa corne sont argenté. De nature timide elle se laisse plus facilement approcher par une sorcière (mesdames à vos carresses elle succombera ^^), soyez toujours sincère et traitez-la avec respect elle vous le rendra. ATTENTION les sort jeté près d'elle peuvent l'effrayer.",
-    "gallions": "7K",
-    "mornilles": "500",
+    "gallions": "2000",
+    "mornilles": "50",
     "image": "../src/Img/Licorne.jpg",
     "category": "Chevaux Magique"
   },
@@ -30,8 +30,8 @@
     "id": "4",
     "title": "Sombral",
     "description": "Le sombral est une espèce rare d'équidés ailés qui parfois fait peur au vue de son apparence mais rassurez-vous ils sont gentil et doux au toucher (comme du velour !!), seul ceux ayant vu la mort peuvent les voir. Ils sont de couleur noir, leur apparence est squelettiques et dotés d'ailes semblables à celle des chauve-souris. Ils aiment l'obscurité, sont omnivores et ont un sens de l'orientation sur-développer.",
-    "gallions": "7K",
-    "mornilles": "500",
+    "gallions": "1500",
+    "mornilles": "80",
     "image": "../src/Img/sombral.jpg",
     "category": "Chevaux Magique"
   },
@@ -39,8 +39,8 @@
     "id": "5",
     "title": "Hyppogriffe",
     "description": "Les hyppogriffe sont des créatures hybride mi-cheval mi-aigle. Ils sont extrêmement fière et peut blesser quiconque le maltraite.",
-    "gallions": "10K",
-    "mornilles": "700",
+    "gallions": "3000",
+    "mornilles": "70",
     "image": "../src/Img/Hypo.jpg",
     "category": "Chimère"
   },
@@ -48,8 +48,8 @@
     "id": "6",
     "title": "Thunderbird",
     "description": "Le Thunderbird est un oiseau magique capable de créer des tempêtes.Ils sont immense, certains ont même des motifs de nuages ou soleils sur leurs ailes. Son humeur peut influer sur le temps et il détecte le moindre danger surtout d'origine surnaturelle.",
-    "gallions": "5M",
-    "mornilles": "700",
+    "gallions": "7000",
+    "mornilles": "70",
     "image": "../src/Img/thunderbird.jpg",
     "category": "Rapace"
   },
@@ -57,8 +57,8 @@
     "id": "7",
     "title": "Vert Gallois",
     "description": "Le vert gallois est l'un des deux dragons natifs de Grande-Bretagne avec le Noir des Hébrides. Ils vivent dans les hautes montagnes où des réserves de préservation à son espèce. Ils sont de nature paisible et préfère éviter les humains.",
-    "gallions": "5M",
-    "mornilles": "500",
+    "gallions": "8500",
+    "mornilles": "65",
     "image": "../src/Img/vert_gallois.jpg",
     "category": "Dragon"
   },
@@ -66,8 +66,8 @@
     "id": "8",
     "title": "Maggyar à Pointe",
     "description": "Le maggyar à pointe est le plus dangereux de tous les dragons. Attention femelle beaucoup plus dangerause que le mâle !",
-    "gallions": "10M",
-    "mornilles": "500",
+    "gallions": "10000",
+    "mornilles": "85",
     "image": "../src/Img/Maggy.png",
     "category": "Dragon"
   }
