@@ -34,6 +34,7 @@ footer {
 }
 
 .card-list {
+  margin: 2rem 0 2rem 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
