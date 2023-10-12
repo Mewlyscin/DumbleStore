@@ -1,7 +1,14 @@
 import data from "/src/data/data.json";
 import Card from "./Card";
 
-function CardList() {
+function CardList({
+  setTotalGallion,
+  totalGallion,
+  setTotalMornille,
+  totalMornille,
+  count,
+  setCount,
+}) {
   return (
     <div className="card-list">
       {data.map((animal) => (
@@ -12,6 +19,13 @@ function CardList() {
           gallions={animal.gallions}
           mornilles={animal.mornilles}
           key={animal.key}
+          price={animal.price}
+          setTotalGallion={setTotalGallion}
+          totalGallion={totalGallion}
+          setTotalMornille={setTotalMornille}
+          totalMornille={totalMornille}
+          setCount={setCount}
+          count={count}
         />
       ))}
     </div>

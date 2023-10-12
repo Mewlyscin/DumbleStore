@@ -1,23 +1,24 @@
-function Navbar() {
+function Navbar({ count, totalGallion, totalMornille }) {
   return (
     <navbar>
-      <div className="logo">
-        <img src="./src/img/logo.jpg" alt="logo" />
-      </div>
-      <>
-        <h1>DumbleStore</h1>
-      </>
-
+      <img src="./src/img/logo.jpg" alt="logo" />
+      <h1>DumbleStore</h1>
       <div className="shop">
-        <button>
-          <span className="total">
-            <img
-              className="caddy"
-              src="https://img.icons8.com/pulsar-line/48/shopping-basket.png"
-              alt="shopping-basket"
-            />
-          </span>
-        </button>
+        <span className="achat">
+          <p>🧺 {count} éléments dans le panier</p>
+        </span>
+        <span className="total">
+          <p>
+            🧾{"  "}
+            {totalGallion}{" "}
+          </p>
+          &nbsp;&nbsp;
+          <img className="money" src="../src/Img/gallion.webp" />
+          &nbsp;&nbsp;&nbsp;
+          <p>{totalMornille} </p>
+          &nbsp;&nbsp;
+          <img className="money" src="../src/Img/mornille.webp" />
+        </span>
       </div>
     </navbar>
   );

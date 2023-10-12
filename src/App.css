@@ -1,23 +1,25 @@
+#root {
+  background-color: #310309;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #efe1d1;
+}
+
+/*Navbar*/
+
 navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   align-items: center;
 }
 
-h1 {
+navbar h1 {
   font-size: 90px;
   font-family: "Harry Potter", sans-serif;
   color: #000000;
   -webkit-text-stroke: 1px #e0aa3e;
-}
-
-.logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 7rem;
-  margin-left: 2em;
 }
 
 navbar img {
@@ -25,11 +27,107 @@ navbar img {
   border-radius: 2em;
 }
 
-img {
-  width: 5rem;
-  margin-left: 5px;
-  border-radius: 2em;
+
+.shop {
+  font-size: 1.25em;
 }
+
+.total {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/*Filtres*/
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 1rem;
+}
+
+.filters input {
+  width: 200px;
+  height: 30px;
+  padding: 0;
+  border: 1px;
+  border-radius: 10px;
+}
+
+.filters select {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+/*Card List*/
+
+.card-list {
+  margin: 2rem 0 2rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 35px;
+  gap: 1rem;
+  padding: 3rem;
+  background-color: #000000;
+  box-sizing: content-box;
+  width: auto;
+}
+
+/*Cards*/
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 35px;
+  border: solid #e0aa3e;
+  width: 22%;
+  text-align: center;
+  padding: 1rem;
+  background-color: #3a010ff8;
+  color: #e0aa3e;
+  font-size: 20px;
+}
+
+.card-img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 35px;
+}
+
+.shop-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.price {
+  font-size: 1.5em;
+}
+
+.money {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.basket-button {
+  padding: 0;
+  border: 0;
+  width: 35px;
+}
+.panier-icon {
+  width: 25px;
+  height: 25px;
+}
+
+/*Footer*/
 
 footer {
   display: block;
@@ -44,78 +142,4 @@ footer {
 .footer-icon {
   width: 60px;
   margin: 5px;
-}
-
-#root {
-  background-color: #310309;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  color: #efe1d1;
-}
-
-.card-list {
-  margin: 2rem 0 2rem 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  border-radius: 4%;
-  gap: 1rem;
-  padding: 3rem;
-  background-color: #000000;
-  box-sizing: content-box;
-  width: auto;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-radius: 5em;
-  border: solid #e0aa3e;
-  width: 22%;
-  text-align: center;
-  padding: 1rem;
-  background-color: #3a010ff8;
-  color: #e0aa3e;
-  font-size: 20px;
-}
-
-.card-img {
-  width: 320px;
-  height: 300px;
-  border-radius: 25%;
-}
-
-.panier-icon {
-  width: 25px;
-  height: 25px;
-  margin-right: 10px;
-}
-
-button {
-  padding: 0;
-  border: 0;
-  width: 35px;
-}
-
-.money {
-  width: 1.5em;
-  height: 1.5em;
-}
-
-.price {
-  font-size: 1.5em;
-}
-
-.shop {
-  font-size: 1em;
-}
-
-.caddy {
-  width: 25px;
-  height: 30px;
-  border-radius: 3em;
-  margin-right: 5px;
 }
