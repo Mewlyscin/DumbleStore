@@ -26,7 +26,7 @@ navbar img {
 }
 
 img {
-  width: 10rem;
+  width: 5rem;
   margin-left: 5px;
   border-radius: 2em;
 }
@@ -114,6 +114,8 @@ button {
 }
 
 .caddy {
-  width: 3em;
+  width: 25px;
+  height: 30px;
   border-radius: 3em;
+  margin-right: 5px;
 }

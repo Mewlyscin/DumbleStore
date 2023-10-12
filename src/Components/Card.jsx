@@ -1,4 +1,11 @@
+import { useState } from "react";
+
 function Card({ image, title, description, key, gallions, mornilles }) {
+  const [panier, setPanier] = useState(0);
+
+  const addToPanier = () => {
+    setPanier(panier + 1);
+  };
   return (
     <div className="card" id={key}>
       <span>
@@ -14,7 +21,8 @@ function Card({ image, title, description, key, gallions, mornilles }) {
           <img className="money" src="../src/Img/mornille.webp" />
           &nbsp;{mornilles}
         </p>
-        <button>
+        <button onClick={addToPanier}>
+          <p>{panier}</p>
           <img
             src="https://img.icons8.com/ios-filled/50/shopping-basket.png"
             alt="shopping-basket"
