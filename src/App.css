@@ -6,11 +6,10 @@ navbar {
 }
 
 h1 {
-  font-size: 25px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  font-family: 'Harry Potter', sans-serif;                                         
   margin-right: 20px;
-  color: rgb(156, 97, 25);
+  color:rgb(226, 215, 13);
 }
 
 img {
@@ -19,10 +18,17 @@ img {
 }
 
 footer {
-  display: flex;
+  display: block;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  color: black;
+  font-size: 13px;
+}
+  
+.footer-icon {
+  width: 30px; 
+  margin: 5px;
 }
 
 #root {

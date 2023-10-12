@@ -1,4 +1,3 @@
-
 function Card({ image, title, description, key }) {
   return (
     <div className="card" id={key}>
@@ -9,6 +8,5 @@ function Card({ image, title, description, key }) {
     </div>
   );
 }
-
 
 export default Card;
