@@ -6,10 +6,11 @@ navbar {
 }
 
 h1 {
-  font-size: 50px;
-  font-family: 'Harry Potter', sans-serif;                                         
+  font-size: 70px;
+  font-family: "Harry Potter", sans-serif;
   margin-right: 20px;
-  color:rgb(226, 215, 13);
+  color: #e0aa3e;
+  -webkit-text-stroke: 1px rgb(175, 53, 12);
 }
 
 img {
@@ -25,9 +26,9 @@ footer {
   color: black;
   font-size: 13px;
 }
-  
+
 .footer-icon {
-  width: 30px; 
+  width: 30px;
   margin: 5px;
 }
 
@@ -59,4 +60,16 @@ footer {
   border: solid #efe1d1;
   padding: 1rem;
   background-color: #a78295;
+}
+
+.panier-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  width: 35px;
 }

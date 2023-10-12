@@ -4,7 +4,13 @@ function Card({ image, title, description, key }) {
       <img src={image} alt="" />
       <h2>{title}</h2>
       <p>{description}</p>
-      <button>Ajouter au panier</button>
+      <button>
+        <img
+          src="https://img.icons8.com/ios-filled/50/shopping-basket.png"
+          alt="shopping-basket"
+          className="panier-icon"
+        />
+      </button>
     </div>
   );
 }
