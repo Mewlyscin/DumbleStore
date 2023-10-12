@@ -20,7 +20,7 @@
   {
     "id": "3",
     "title": "Licorne",
-    "description": "La licorne est d'une espèce de cheveaux rare, à l'age adulte une corne apparait sur son front, elle est généralement d'une robe blanche aux crin et la corne argenté. De nature timide elle se laissera plus facilement approcher par une sorcière (mesdames à vos carresses elle succombera ^^) Respectez-la avec la plus grande sincérité et votre lien sera des plus fort. ATTENTION les sort jeté près d'elle peuvent l'effrayer.",
+    "description": "La licorne est une espèce rare chez les équidés. elle a généralement une robe blanche, ses crins et sa corne sont argenté. De nature timide elle se laisse plus facilement approcher par une sorcière (mesdames à vos carresses elle succombera ^^), soyez toujours sincère et traitez-la avec respect elle vous le rendra. ATTENTION les sort jeté près d'elle peuvent l'effrayer.",
     "gallions": "7K",
     "mornilles": "500",
     "image": "../src/Img/Licorne.jpg",
@@ -29,7 +29,7 @@
   {
     "id": "4",
     "title": "Sombral",
-    "description": "Une espèce de chevaux magique ailé qui parfois fait peur au vue de son apparence rassurez-vous ils sont doux au toucher (comme du velour), seul ceux ayant vu la mort peuvent les voir mais ils ne sont en aucun cas dangereux du moins si on ne les énerve pas bien-sur. Ils sont de couleur noir, leur apparence est squelettiques et dotés des ailes semblables à celle des chauve-souris. Ils aiment l'obscurité, sont omnivores et ont un sens de l'orientation sur-développer.",
+    "description": "Le sombral est une espèce rare d'équidés ailés qui parfois fait peur au vue de son apparence mais rassurez-vous ils sont gentil et doux au toucher (comme du velour !!), seul ceux ayant vu la mort peuvent les voir. Ils sont de couleur noir, leur apparence est squelettiques et dotés d'ailes semblables à celle des chauve-souris. Ils aiment l'obscurité, sont omnivores et ont un sens de l'orientation sur-développer.",
     "gallions": "7K",
     "mornilles": "500",
     "image": "../src/Img/sombral.jpg",
