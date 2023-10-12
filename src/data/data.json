@@ -1,0 +1,50 @@
+[
+  {
+    "id": "un identifiant unique",
+    "title": "le titre de l'article",
+    "description": "la description de l'article",
+    "price": "le prix de l'article",
+    "image": "l'url de l'image de l'article",
+    "category": "la catégorie de l'article"
+  },
+  {
+    "id": "un identifiant unique",
+    "title": "le titre de l'article",
+    "description": "la description de l'article",
+    "price": "le prix de l'article",
+    "image": "l'url de l'image de l'article",
+    "category": "la catégorie de l'article"
+  },
+  {
+    "id": "un identifiant unique",
+    "title": "le titre de l'article",
+    "description": "la description de l'article",
+    "price": "le prix de l'article",
+    "image": "l'url de l'image de l'article",
+    "category": "la catégorie de l'article"
+  },
+  {
+    "id": "un identifiant unique",
+    "title": "le titre de l'article",
+    "description": "la description de l'article",
+    "price": "le prix de l'article",
+    "image": "l'url de l'image de l'article",
+    "category": "la catégorie de l'article"
+  },
+  {
+    "id": "un identifiant unique",
+    "title": "le titre de l'article",
+    "description": "la description de l'article",
+    "price": "le prix de l'article",
+    "image": "l'url de l'image de l'article",
+    "category": "la catégorie de l'article"
+  },
+  {
+    "id": "un identifiant unique",
+    "title": "le titre de l'article",
+    "description": "la description de l'article",
+    "price": "le prix de l'article",
+    "image": "l'url de l'image de l'article",
+    "category": "la catégorie de l'article"
+  }
+]
