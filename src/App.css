@@ -1,4 +1,3 @@
-
 navbar {
   display: flex;
   justify-content: space-between;
@@ -24,6 +23,7 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
 
 #root {
   background-color: #45171d;
@@ -52,5 +52,4 @@ footer {
   border: solid #efe1d1;
   padding: 1rem;
   background-color: #a78295;
-
 }
