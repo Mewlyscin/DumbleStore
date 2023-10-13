@@ -5,7 +5,6 @@ import Card from "./Components/Card";
 import CardList from "./Components/CardList";
 import "./App.css";
 import Filter from "./Components/Filter";
-import Card from "./Components/Card";
 
 function App() {
   const [count, setCount] = useState(0);

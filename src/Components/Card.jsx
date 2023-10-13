@@ -1,4 +1,3 @@
-
 function Card({
   image,
   title,
@@ -38,16 +37,11 @@ function Card({
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <img className="money" src="../src/Img/mornille.webp" />
           &nbsp;{mornilles}
-
         </span>
-        <button type="button" className="basket-button" onClick={handleClick}>
-
-          <img
-            src="https://img.icons8.com/ios-filled/50/shopping-basket.png"
-            alt="shopping-basket"
-            className="panier-icon"
-          />
-        </button>
+        <button
+          type="button"
+          className="basket-button"
+          onClick={handleClick}></button>
       </div>
     </div>
   );
